@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>images-slider</title>
+    <!-- slider-link -->
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- slider start -->
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="img/boat.jpg" data-thumb="img/boat.jpg" alt="boat" title="Boat in Sea-beach" />
+
+            <a href="http://dev7studios.com"><img src="img/cropG.jpg" data-thumb="img/cropG.jpg" alt="Crop field "
+                    title="Crop field in Bangladesh" /></a>
+
+            <img src="img/pondB.jpg" data-thumb="img/pondB.jpg" alt="pond" data-transition="slideInLeft"
+                title="Two boys are doing fun during their bath in pond" />
+
+            <img src="img/riverN.jpg" data-thumb="img/riverN.jpg" alt="river" title="Beauty of river in Bangladesh" />
+        </div>
+
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+        </div>
+    </div>
+    <!-- slider-end -->
+    <!-- menubar start -->
+    <nav>
+        <ul id="menu">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Service</a>
+                <ul>
+                    <li><a href="#">water</a></li>
+                    <li><a href="#">room</a></li>
+                    <li><a href="#">food</a>
+                    <ul>
+               <li><a href="#">Dosa</a></li>
+               <li><a href="#">Ice-cream</a></li>
+               <li><a href="#">Grill-Kabab</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- menubar end -->
+
+    <div class="Middle">
+        <h2 class="highlight">This is our Country</h2>
+        <p class="ph1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi itaque labore nostrum
+            temporibus
+            tempora, alias impedit delectus quasi doloremque eos consequatur excepturi earum amet optio modi
+            consequuntur perferendis magnam. Magnam atque sit ut mollitia fuga rem recusandae, non culpa.
+            Labore
+            voluptatum quo voluptas sunt tempora, blanditiis, temporibus corporis cum sed eius
+            necessitatibus adipisci.
+            Iusto soluta autem, sed quidem odio natus quisquam temporibus ut reprehenderit dolore veritatis
+            voluptates
+            et, mollitia laborum quasi. Illo eligendi velit, repellat consectetur distinctio debitis dolorem
+            amet quia
+            deserunt maiores libero sint minima adipisci voluptates laborum quidem repellendus rerum
+            reiciendis ex
+            incidunt. Repellendus sunt fugit ut cumque repudiandae et excepturi, totam perspiciatis earum ea
+            possimus
+            eos veniam, facere fugiat. Impedit quas expedita nesciunt ut harum perspiciatis porro a corporis
+            doloremque
+            nam velit beatae veritatis nihil, aperiam dolorum consectetur accusamus reiciendis iusto
+            perferendis
+            quisquam distinctio? Itaque, deleniti enim. Sint, quod! Facilis quam sequi, excepturi laboriosam
+            odit
+            repellat dolor. Reprehenderit vitae deleniti culpa mollitia quibusdam asperiores veniam quod
+            natus dolorum,
+            voluptate adipiscimus. Neque odit eligendi consectetur,
+            assumenda ducimus quaerat necessitatibus perspiciatis esse quis perferendis cilis
+            i aliquam deserunt assumenda recusandae. Libero, odio tenetur fuga, ea
+            aperiam repudiandae numquam ipsa culpa earum tempore rerum expedita quas, quos vero reiciendis
+            molestiae?
+            Numquam officiis consequuntur ipsam fugit inventore at, debitis praesentium laborum recusandae
+            ipsa nobis
+            dignissimos repellendus error, suscipit facilis totam esse natus alias itaque? Numquam harum
+            explicabo
+            paria.</p>
+    </div>
+
+    <!-- slider-js code -->
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+    <!-- slider-js code end -->
+</body>
+
+</html>

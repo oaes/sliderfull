@@ -1,0 +1,91 @@
+* {
+    background: #d5d5e9;
+  }
+  
+  /* nav-bar */
+  #menu {
+    padding: 0;
+    margin-top: 0;
+    width: 1250px;
+    min-height: 50px;
+    background: rgb(31, 27, 27);
+    border-bottom: 3px solid lime;
+   
+  }
+  
+  #menu li {
+    float: left;
+    border-right: 2px solid rgb(70, 68, 68);
+    list-style-type: none;
+    border-left: 0.5px solid rgb(97, 95, 95);
+    position: relative;
+  }
+  
+  #menu li:last-child {
+    border-right: none;
+  }
+  
+  #menu li a {
+    color: white;
+    text-decoration: none;
+    background: rgb(31, 27, 27);
+    padding: 10px 20px;
+    display: block;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+  }
+  
+  #menu li a:hover {
+    background: orange;
+  }
+  #menu li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -99999px;
+  }
+  
+  /* drop-down menu hover */
+  #menu li:hover ul{
+    left: 0;
+  }
+  
+  /* drop-down menu  */
+  #menu li ul li{
+    float: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgb(5, 5, 5);
+    border-bottom: 1px solid rgb(5, 5, 5);
+    position: relative;
+  }
+  /* sub-dropdown menu */
+  #menu li ul li ul{
+    position: absolute; 
+    top: -99999px;
+    
+  }
+  /* sub-dropdown menu hover */
+  #menu li ul li:hover ul{
+    top: 0;
+    left: 80px;
+  }
+  
+  
+  
+  
+  
+  
+  /* middle-section */
+  .Middle {
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  
+  /* pragraph */
+  .ph1 {
+    margin-left: 10px;
+  }
